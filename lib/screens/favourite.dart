@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class Favourite extends StatelessWidget {
+  const Favourite({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Favourite'),
+      ),
+      body: Center(
+        child: Text('Your favourites will be shown here'),
+      ),
+    );
+  }
+}
